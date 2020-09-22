@@ -1,0 +1,58 @@
+/* body */
+.wrapper {
+   background-color: #e3f2fd;
+}
+
+/* header */
+.defaultHeaders {
+    color: cyan;
+}
+.navbar-brand   {
+    font-size: 1.5em !important;
+}
+.nav-link {
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 1.10em;
+    margin-left: 1em;
+    color: #fff !important; 
+}
+/* .nav-link:hover {
+    color: #fff !important;
+} */
+
+
+/* content */
+
+    /* carousel */
+.carouselSlide {
+    height: 600px;
+}
+
+    /* article */
+.articleThumbs {
+    /* max-height: 100px !important; */
+    min-width: 175px !important;
+    max-width: 250px !important;
+}
+.articleLinks {
+    text-decoration: none !important;
+}
+.media {
+    margin-bottom: 2em;
+}
+.card-body {
+    padding: 10px !important;
+}
+.card-text {
+    margin-bottom: 20px;
+}
+.sidebarLink {
+    font-size: .8em !important;
+    font-weight: bold;
+    text-decoration: none;
+}
+.sidebarText {
+    font-size: .9em !important;
+    /* text-align: justify !important; */
+}
