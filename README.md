@@ -9,6 +9,7 @@
   
   5. Go to github.com/ayejaye/ANECDOTAL
   6. Create a pull request, but make sure to follow this setting:
-      ===base repo: ayejaye/ANECDOTAL  ||  base: development   <-   head repo: (your-username)/ANECDOTAL || compare: development===
+  
+  ===base repo: ayejaye/ANECDOTAL  ||  base: development   <-   head repo: (your-username)/ANECDOTAL || compare: development===
   7. Leave a meaningful message and click "Create pull request".
   8. That's about it. Wait for the owner to review your changes.
