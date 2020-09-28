@@ -1,34 +1,51 @@
+html {
+  scroll-behavior: smooth;
+}
+
 /* body */
 .wrapper {
    background-color: #e3f2fd;
+}
+.boldtitles {
+    font-family: 'Bangers', cursive;
+}
+.p {
+    font-family: 'Raleway', sans-serif;
 }
 
 /* header */
 .defaultHeaders {
     color: cyan;
 }
+
+#navbarhide {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition: all .6s;
+}
+
 .navbar-brand   {
-    font-size: 1.5em !important;
+    font-size: 1.75em !important;
+    font-family: 'Bangers', cursive;
+    color: #fff !important;
 }
 .nav-link {
     font-weight: normal;
-    font-family: Arial, Helvetica, sans-serif !important;
-    font-size: 1.10em;
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 1.0em;
     margin-left: 1em;
     color: #fff !important; 
 }
-/* .nav-link:hover {
-    color: #fff !important;
-} */
 
 
-/* content */
-
-    /* carousel */
-.carouselSlide {
-    height: 600px;
+.nav-item {
+    border-bottom-color: #fff;
+    border-bottom-width: 3px; 
 }
+ 
 
+<<<<<<< HEAD
 .container {
   position: relative;
 }
@@ -90,16 +107,36 @@ h1 {
 }
 .card-body {
     padding: 10px !important;
+=======
+/* content */
+.contentku {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: 'Raleway', sans-serif;
+>>>>>>> upstream/development
 }
-.card-text {
-    margin-bottom: 20px;
+    /* carousel */
+.carouselBlock {
+    z-index: 0;
 }
-.sidebarLink {
-    font-size: .8em !important;
-    font-weight: bold;
-    text-decoration: none;
+.carouselSlide {
+    height: 600px;
 }
-.sidebarText {
-    font-size: .9em !important;
-    /* text-align: justify !important; */
+.carousel-caption {
+    width:200px;
+    z-index:10;
+    color:#fff;
+    text-align:left;
+    top:50%;
+    left:20%;
+    bottom:auto;
+    -webkit-transform:translate(0, -50%);
+    -ms-transform:translate(0, -50%);
+    transform:translate(0, -50%);
 }
+
+
+
+
+
+    
