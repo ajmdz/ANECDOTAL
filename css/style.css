@@ -45,7 +45,32 @@ html {
 }
  
 
-<<<<<<< HEAD
+/* content */
+.contentku {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: 'Raleway', sans-serif;
+}
+    /* carousel */
+.carouselBlock {
+    z-index: 0;
+}
+.carouselSlide {
+    height: 600px;
+}
+.carousel-caption {
+    width:200px;
+    z-index:10;
+    color:#fff;
+    text-align:left;
+    top:50%;
+    left:20%;
+    bottom:auto;
+    -webkit-transform:translate(0, -50%);
+    -ms-transform:translate(0, -50%);
+    transform:translate(0, -50%);
+}
+
 .container {
   position: relative;
 }
@@ -72,71 +97,25 @@ html {
 }
 
 .container:hover .overlay {
-  opacity: 0.5;
+  opacity: 0.9;
 }
 
 .text {
   color: #ffffff;
-  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: center;
+  text-align: justify;
 }
 
 h1 {
+  font-family: 'Raleway', sans-serif;
   font-size: 70px;
   color: #000000;
   text-align: center;
 }
-
-    /* article */
-.articleThumbs {
-    /* max-height: 100px !important; */
-    min-width: 175px !important;
-    max-width: 250px !important;
-}
-.articleLinks {
-    text-decoration: none !important;
-}
-.media {
-    margin-bottom: 2em;
-}
-.card-body {
-    padding: 10px !important;
-=======
-/* content */
-.contentku {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    font-family: 'Raleway', sans-serif;
->>>>>>> upstream/development
-}
-    /* carousel */
-.carouselBlock {
-    z-index: 0;
-}
-.carouselSlide {
-    height: 600px;
-}
-.carousel-caption {
-    width:200px;
-    z-index:10;
-    color:#fff;
-    text-align:left;
-    top:50%;
-    left:20%;
-    bottom:auto;
-    -webkit-transform:translate(0, -50%);
-    -ms-transform:translate(0, -50%);
-    transform:translate(0, -50%);
-}
-
-
-
-
-
-    
