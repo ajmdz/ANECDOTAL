@@ -1,0 +1,43 @@
+.poster {
+  position: relative;
+  width: 550px;
+  padding: 30px;
+  background: #fff;
+  margin: auto;
+  transition: .3s ease;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+.poster:hover {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
+  transform: translateY(-10px) scale(1.02);
+}
+.poster:hover .entry-title {
+  background-position: -100% 0;
+}
+
+.entry-title {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #F9E4B7 50%);
+  background-size: 200%;
+  background-position: 0 0;
+  display: inline;
+  transition: .5s ease-in-out;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.25em;
+  /*text-transform: uppercase;*/
+  line-height: 1.25em;
+}
+.entry-title a {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+small {
+  font-weight: 700;
+  margin-top: 20px;
+  display: block;
+  font-family: raleway, arial, sans-serif;
+  color: #ff6600;
+  text-transform: uppercase;
+}
+
+
