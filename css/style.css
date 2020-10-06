@@ -126,3 +126,107 @@ html {
   text-align: justify;
 }
 
+
+/*ABOUT PAGE*/
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 80px;
+  color: #000000;
+  text-align: center;
+}
+
+.iter {
+  font-family: 'Bangers', cursive;
+  font-size: 85px;
+  text-align: center;
+  color: #ff6600;
+}
+
+.iterdesc {
+  font-family: 'Raleway', sans-serif;
+  font-size: 23px;
+  text-align: justify;
+}
+
+.click {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.btn1{
+  font-family: 'Bangers', cursive;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.btn1:hover{  
+  background: #407899;
+  color: white;
+}
+
+.modal1hstyle {
+  font-family: 'Bangers', cursive;
+  font-size: 40px;
+  margin-left: 300px;
+  color: white;
+}
+
+.modal1bstyle {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  background-color: #407899;
+  color: white;
+}
+
+.btn2{
+  font-family: 'Bangers', cursive;
+  font-size: 40px;
+}
+
+.btn2:hover{  
+  background: #41d3bd;
+  color: white;
+}
+
+.modal2hstyle {
+  font-family: 'Bangers', cursive;
+  font-size: 40px;
+  margin-left: 290px;
+  color: white;
+}
+
+.modal2bstyle {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  background-color: #41d3bd;
+  color: white;
+}
+
+.btn3{
+  font-family: 'Bangers', cursive;
+  font-size: 40px;
+}
+
+.btn3:hover{  
+  background: #791e94;
+  color: white;
+}
+
+.modal3hstyle {
+  font-family: 'Bangers', cursive;
+  font-size: 40px;
+  margin-left: 280px;
+  color: white;
+}
+
+.modal3bstyle {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  background-color: #791e94;
+  color: white;
+}
+
