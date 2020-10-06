@@ -1,11 +1,13 @@
 .poster {
   position: relative;
-  width: 550px;
+  width: 525px;
   padding: 30px;
   background: #fff;
-  margin: auto;
+  margin: 0px 0px 20px 20px;
   transition: .3s ease;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  text-align: justify;
+  display: inline-block;
 }
 .poster:hover {
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
@@ -39,5 +41,4 @@ small {
   color: #ff6600;
   text-transform: uppercase;
 }
-
 

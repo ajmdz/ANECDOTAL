@@ -61,16 +61,26 @@ html {
     height: 600px;
 }
 .carousel-caption {
-    width:200px;
+    text-shadow: 2px 2px 7px #111111;
+    top: 30%;
+}
+
+#displaced1 { /*FOR THE 1ST CAROUSEL SLIDE CAPTION*/
+    width:325px;
     z-index:10;
     color:#fff;
+    text-shadow: 2px 2px 7px #111111;
     text-align:left;
     top:50%;
-    left:20%;
+    left:12%;
     bottom:auto;
     -webkit-transform:translate(0, -50%);
     -ms-transform:translate(0, -50%);
     transform:translate(0, -50%);
+}
+
+#displaced2 { /*FOR THE 1ST CAROUSEL SLIDE CAPTION*/
+    top: 60%;
 }
 
 .container {
@@ -115,6 +125,9 @@ html {
   transform: translate(-50%, -50%);
   text-align: justify;
 }
+
+
+/*ABOUT PAGE*/
 
 .img {
   margin-top:1%; 
