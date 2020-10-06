@@ -1,11 +1,11 @@
 
-/* FOR THE TIPS PAGE (CARDS)*/
+/* FOR THE LEARN PAGE (CARDS)*/
 
 .cards {
   position: absolute;
   top: 20%;
   left: 37%;    /*from 40%*/
-  width: 350px; /*from 300*/
+  width: 380px; /*from 300*/
   height: 550px; /*from 500*/
   perspective: 900px;
 }
@@ -190,6 +190,7 @@
   text-shadow: 0px 0px 10px #eee;
   color: #eee;
   letter-spacing: 2px;
+  margin-bottom: 0px !important;
 }
 
 /*h4 {
@@ -211,7 +212,7 @@ h1 {
 #card_desc {
   font-size: 0.95em;
   color: #fff;
-  padding: 0px 20px 20px 20px;
+  padding: 0px 15px 15px 15px;
   line-height: 150%;
   text-align: center;
   letter-spacing: 1px;
