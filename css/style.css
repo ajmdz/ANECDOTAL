@@ -129,6 +129,14 @@ html {
 
 /*ABOUT PAGE*/
 
+.img {
+  margin-top:1%; 
+  width:100%; 
+  height:100%; 
+  max-width:500px; 
+  max-height:500px
+}
+
 .iter {
   font-family: 'Bangers', cursive;
   font-size: 85px;
@@ -151,6 +159,7 @@ html {
 .btn1{
   font-family: 'Bangers', cursive;
   font-size: 40px;
+  color: #407899;
   margin-bottom: 50px;
 }
 
@@ -177,6 +186,7 @@ html {
 .btn2{
   font-family: 'Bangers', cursive;
   font-size: 40px;
+  color: #41d3bd;
 }
 
 .btn2:hover{  
@@ -202,6 +212,7 @@ html {
 .btn3{
   font-family: 'Bangers', cursive;
   font-size: 40px;
+  color: #791e94;
 }
 
 .btn3:hover{  
