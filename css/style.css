@@ -235,3 +235,17 @@ html {
   color: white;
 }
 
+/*LEARN PAGE*/
+
+.btnlearn{
+  text-align: justify;
+}
+
+.mdlhymn{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  color: #ff6600;
+  font-size: 1.25em;
+  text-decoration: none;
+}
+
